@@ -1,0 +1,11 @@
+//Alunos: Ronald Pereira e Isabela Rocha
+
+public class Main {
+    public static void main(String[] args) {
+        Data data = new Data();
+        System.out.println("Esse é o: " + data.diasTranscorridos() + "º dia do ano"); 
+        System.out.println("Dia: " + data.mostra1()); 
+        System.out.println("Data: " + data.mostra2());
+        data.apresentaDataAtual();
+    }
+}
